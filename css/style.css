@@ -5,6 +5,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+.ccolor{
+    color: #F7B101;
+}
+
 /********** HEADER *********/
 .header{
     background: rgba(0,0,0,0.6)url(../images/car_background.jpeg);
@@ -52,7 +56,44 @@ border-right: 1px solid #F7B101;
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
 }
+.see-more a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    background-color: #e2a303;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: .5s;
+}
+.see-more a:hover{
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    background-color: #fabe25;
+    letter-spacing: 6px;
+    box-shadow: 0 0 8px 0px #626262;
+}
 /*********** Footer **********/
-.footer-p{
-    font-size: 14px;
+
+
+/********* carcare ***********/
+.carcare{
+    background: rgba(0, 0, 0, 0.68)url(../images/car-care.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 18px 5px #545151;;
+}
+.car-care-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.basic-maintenance-section{
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 40px;
 }
