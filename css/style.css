@@ -51,10 +51,32 @@ border-right: 1px solid #F7B101;
 .brand{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.log-reg a{
+    text-decoration: none;
+    padding: 16px 30px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    box-shadow:0 0 6px 1px #ffc107;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.log-reg a:hover{
+    background-color: #eca200;
+    color: black;
+    font-weight: bold;
+}
 /* tradding */
 .car-section{
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
+    box-shadow: 0 0 10px 1px #c6c6c6;
+    transition: 0.5s;
+}
+.car-section:hover{
+    transform: scale(1.1);
 }
 .see-more a{
     text-decoration: none;
@@ -77,7 +99,7 @@ border-right: 1px solid #F7B101;
 
 /********* carcare ***********/
 .carcare{
-    background: rgba(0, 0, 0, 0.68)url(../images/car-care.jpeg);
+    background: rgba(0, 0, 0, 0.65)url(../images/car-care.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -179,6 +201,9 @@ border-right: 1px solid #F7B101;
 
 
 /* showroom */
+.showroom{
+    height:820px;
+}
 .showroom a{
     font-size: 18px;
     text-decoration: none;
@@ -188,4 +213,20 @@ border-right: 1px solid #F7B101;
     border-radius: 8px;
     transition: .5s;
     letter-spacing: 2px;
+}
+.showroom img{
+    width: 500px;
+    border-radius: 20px;
+}
+.showroom_heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.showroom h3{
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    line-height: 35px;
 }
