@@ -41,13 +41,6 @@ border-right: 1px solid #F7B101;
 .service-btn{
     background-color: #F7B101 !important;
 }
-
-.banner h1{
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 70px;
-}
 .brand{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -74,6 +67,12 @@ border-right: 1px solid #F7B101;
     border-radius: 10px;
     box-shadow: 0 0 10px 1px #c6c6c6;
     transition: 0.5s;
+}
+.banner h1{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
 }
 .car-section:hover{
     transform: scale(1.1);
@@ -229,4 +228,27 @@ border-right: 1px solid #F7B101;
     letter-spacing: 1px;
     margin-bottom: 20px;
     line-height: 35px;
+}
+
+
+/* HANDYMAN */
+.handy-man-top{
+    background-image: url(../images/backg.jpg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.handyman span{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+.handyman h1{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+.hbtn{
+    color: red;
 }
