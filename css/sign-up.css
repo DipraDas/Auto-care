@@ -64,6 +64,14 @@
     background-color: rgba(255, 0, 0, 0.623)!important;
     transition: .5s;
     cursor: pointer;
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 5px;
 }
 .submit-button:hover{
     background-color: rgb(255, 58, 58)!important;

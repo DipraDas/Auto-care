@@ -23,13 +23,14 @@
                 <h1>Sign-Up</h1>
                 <div class="main-form">
                     <div class="raj">
-                        <input type="text" id="" name="" value="" placeholder="First Name">
-                        <input type="text" id="" name="" value="" placeholder="Last Name">
+                        <input type="text" id="first_name" name="" value="" placeholder="First Name">
+                        <input type="text" id="last_name" name="" value="" placeholder="Last Name">
                     </div>
-                    <input type="text" id="" name="" value="" placeholder="Enter Your Email">
-                    <input type="password" id="" name="" value="" placeholder="Enter Your Password">
-                    <input type="password" id="" name="" value="" placeholder="Re-enter Your Password">
-                    <input class="submit-button" type="submit" value="Submit">
+                    <input type="text" id="email" name="" value="" placeholder="Enter Your Email">
+                    <input type="password" id="password" name="" value="" placeholder="Enter Your Password">
+                    <input type="password" id="confire_password" name="" value="" placeholder="Re-enter Your Password">
+                    <!-- <input class="submit-button" type="submit" value="Submit"> -->
+                    <button class="submit-button" onclick="register()">Register</button>
                 </div>
                 <h5>Already Registered?</h5>
                 <a href="login.html">Log In</a>
@@ -37,5 +38,8 @@
         </div>
     </div>
 </body>
-
+<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js"></script>
+<script src="js/index.js"></script>
 </html>

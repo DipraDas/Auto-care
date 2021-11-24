@@ -27,14 +27,12 @@
     border-radius: 0px 0px 70px 70px;
     box-shadow: 0 0 9px 5px #ff0000;
 }
-
 .specific-cars{
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
 }
-
 .main-part h2{
     margin-top: 50px;
     font-family: 'Roboto Condensed', sans-serif;
